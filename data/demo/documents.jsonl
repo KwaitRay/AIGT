@@ -1,0 +1,4 @@
+{"id":"weather-sh-11","text":"合成天气样例：上海10月11日下午有阵雨，建议准备室内备选。","source":"synthetic://weather","published_at":"2026-10-10T08:00:00+08:00","city":"上海","valid_on":"2026-10-11","topic":"weather"}
+{"id":"wrong-day","text":"合成样例：上海晴天。","source":"synthetic://weather","published_at":"2026-10-09T08:00:00+08:00","city":"上海","valid_on":"2026-10-10","topic":"weather"}
+{"id":"wrong-city","text":"合成样例：杭州晴天。","source":"synthetic://weather","published_at":"2026-10-10T08:00:00+08:00","city":"杭州","valid_on":"2026-10-11","topic":"weather"}
+{"id":"future","text":"合成样例：上海天气新预报。","source":"synthetic://weather","published_at":"2026-10-10T12:00:00+08:00","city":"上海","valid_on":"2026-10-11","topic":"weather"}

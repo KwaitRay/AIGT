@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aigt"
+version = "0.1.0"
+description = "Cloud AI glasses reference pipeline and post-training integration"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+training = ["torch>=2.2"]
+models = ["torch>=2.2", "transformers>=4.51", "accelerate>=1.0"]
+test = ["pytest>=8"]
+
+[project.scripts]
+aigt = "aigt.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aigt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
